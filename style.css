@@ -9,3 +9,29 @@
     border: none;
     text-decoration: none;
 }
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .content {
+    text-align: center;
+}
+
+.container .content h3 {
+    font-size: 30px;
+    color: #000;
+}
+
+.container .content h3 span {
+    background: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0 10px;
+
+}
